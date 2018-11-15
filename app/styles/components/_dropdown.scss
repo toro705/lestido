@@ -1,0 +1,15 @@
+@media (min-width: 991px) {
+	.navbar {
+		.navbar-collapse {
+			.nav {
+				.dropdown {
+					&:hover {
+						>ul {
+							display: block;
+						}
+					}
+				}
+			}
+		}
+	}
+}

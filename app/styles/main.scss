@@ -1,0 +1,59 @@
+// Carset
+@charset "UTF-8";
+
+// Ovewrite bootstrap
+$fa-font-path: "../bower_components/font-awesome/fonts";
+$icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/bootstrap/";
+
+//$grid-float-breakpoint: 960px; // Point at which the navbar becomes uncollapsed
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "bower_components/font-awesome/scss/font-awesome.scss";
+@import "bower_components/components-font-awesome/scss/font-awesome.scss";
+@import "bower_components/slick-carousel/slick/slick.scss";
+// endbower
+
+// Mixins
+@import "utils/mixins";
+
+// Variables
+@import "utils/variables";
+@import "utils/helpers";
+
+// Base
+@import "base/typographies";
+@import "base/texts";
+@import "base/colours";
+@import "base/layout";
+
+// Pages
+@import "pages/home";
+@import "pages/about-us";
+@import "pages/contacto";
+
+//Components
+@import "components/buttons";
+@import "components/forms";
+@import "components/tables";
+@import "components/panels";
+@import "components/thumbnails";
+@import "components/customScrollbar";
+@import "components/dropdown";
+
+// Layout
+@import "layout/carousel";
+@import "layout/topbar";
+@import "layout/layout";
+@import "layout/navbar";
+@import "layout/footer";
+@import "layout/welcome";
+@import "layout/websites";
+@import "layout/newscarousel";
+@import "layout/servicios-title";
+@import "layout/mantenimientos-preventivos";
+@import "layout/repuestos";
+@import "layout/contacto-form";
+@import "layout/contacto-info";
+//@import "layout/menu-bar";
+//@import "layout/subscription-form";

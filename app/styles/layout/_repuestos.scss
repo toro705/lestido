@@ -1,0 +1,18 @@
+section.repuestos-cont {
+	padding: 60px 0;
+	h1 {
+		margin-bottom: 28px;
+	}
+	p {
+		margin-bottom: 30px;
+		a{
+			@extend .colour-1;
+			&:hover{
+				@extend .colour-1;
+			}
+		}
+	}
+	b {
+		margin-bottom: 15px;
+	}
+}

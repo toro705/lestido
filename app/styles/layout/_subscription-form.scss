@@ -1,0 +1,94 @@
+.subscription-form {
+  padding: 14px 0;
+  min-height: 71px;
+  background: url('../images/noise-c.png');
+
+  form {
+    .msg {
+      margin-top: 1px;
+      min-height: 42px;
+      @extend .colour-3;
+      margin-right: 15px;
+      @include text-shadow;
+      @extend .typography-3;
+      @include font-size(3.0);
+    }
+
+    input#email {
+      width: 330px;
+      margin-right: 5px;
+
+      @media #{$mq-mobile} {
+        & {
+          width: 210px;
+        }
+      }
+
+      @media #{$mq-tablet} {
+        & {
+          width: 405px;
+        }
+      }
+    }
+
+    button[type="submit"] {
+      width: 120px;
+    }
+  }
+
+  a.social-circle {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid $colour-8;
+    @include border-radius(100%);
+
+    @media #{$mq-mobile-and-tablet} {
+      & {
+        margin-bottom: 7px;
+      }
+    }
+
+    i {
+      color: $colour-4;
+      @include centerer;
+      @include font-size(2.0);
+      @include transition();
+    }
+
+    &:hover > i {
+      @include centerer;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+// Subscription form autos
+.subscription-form-autos{
+  border-top: 2px solid $colour-2;
+
+  a.social-circle:hover > i {
+    color: $colour-5;
+    @include centerer;
+  }
+}
+
+// Subscription form forklift trucks
+.subscription-form-forklift-truck{
+  border-top: 2px solid $colour-22;
+
+  .btn-primary {
+    background: url("../images/noise-f.png");
+  }
+
+  a.social-circle:hover > i {
+    color: $colour-22;
+    @include centerer;
+  }
+}

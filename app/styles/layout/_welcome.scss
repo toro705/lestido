@@ -1,0 +1,42 @@
+section#welcome {
+    padding: 40px 0;
+    .welcome-title {
+        padding-left: 0;
+        max-width: 340px;
+        text-align: left;
+        float: left;
+        @media #{$mq-mobile-and-tablet} {
+            max-width: 100%;
+        }
+    }
+    table {
+        width: calc( 100% - 340px);
+        @media #{$mq-mobile-and-tablet} {
+            width: 100%;
+        }
+        tr {
+            td {
+                padding: 0 25px;
+                text-align: center;
+                vertical-align: middle;
+                &:first-child {
+                    @media #{$mq-mobile-and-tablet} {
+                        padding: 0;
+                        text-align: left;
+                    }
+                }
+                &:last-child {
+                    @media #{$mq-mobile-and-tablet} {
+                        padding-right: 0;
+                    }
+                }
+                img {
+                    display: inline-block;
+                }
+                h1 {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}

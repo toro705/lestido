@@ -1,0 +1,46 @@
+html {
+  body {
+    a,
+    a:focus {
+      outline: none;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin: 0;
+      padding: 0;
+    }
+
+    .nopadding {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .nopadding-left {
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+      padding-right: (15px / 2) !important;
+    }
+
+    .nopadding-right {
+      margin-right: 0 !important;
+      padding-right: 0 !important;
+      padding-left: (15px / 2) !important;
+    }
+
+    .noise {
+      padding-top: 54px;
+      padding-bottom: 54px;
+      border-bottom: 1px solid $colour-6;
+    }
+
+    .noise-a {
+      @extend .noise;
+      background: url('../images/noise-a.png');
+    }
+
+    .noise-b {
+      @extend .noise;
+      background: url('../images/noise-b.png');
+    }
+  }
+}

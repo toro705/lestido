@@ -1,0 +1,20 @@
+        body {
+        	padding-top: 113px;
+        	@media #{$mq-mobile-and-tablet} {
+        		padding-top: 58px;
+        	}
+        }
+        
+        section.content {
+        	padding: 100px 0 400px 0;
+        }
+        
+        .container {
+        	@media #{$mq-mobile-and-tablet} {
+        		width: 100%;
+        	}
+        }
+a:focus,
+a:hover{
+	text-decoration: none;
+}

@@ -1,0 +1,32 @@
+section.contact-form{
+	padding: 62px 0;
+	h1{
+		margin-bottom: 26px;
+	}
+	.container {
+		form{
+			p{
+				line-height: 20px;
+				margin-bottom: 30px;
+			}
+			label{
+				@extend .paragraph-1;
+				font-weight: normal;
+			}
+		}
+	}
+	@media #{$mq-mobile} {
+		padding: 26px 0;
+		h1{
+			margin-bottom: 23px;
+		}
+		.container{
+			form{
+				p{
+					margin-bottom: 15;
+				}
+			}
+		}
+	}
+	
+}

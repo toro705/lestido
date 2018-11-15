@@ -1,0 +1,15 @@
+
+// Thumbnail 1
+.thumbnail.thumbnail-1 {
+  padding: 0;
+  @extend .typography-2;
+  @include font-size(1.7);
+  @include border-radius(6px);
+  @include box-shadow(0, 0, 6px, rgba(3, 3, 3, .3));
+}
+
+// Thumbnail 2
+.thumbnail.thumbnail-2 {
+  padding: 10px;
+  @include border-radius(6px);
+}

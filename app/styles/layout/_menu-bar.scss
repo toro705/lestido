@@ -1,0 +1,78 @@
+.menubar {
+  text-align: center;
+  background: url('../images/noise-c.png');
+
+  ul {
+    display: inline-block;
+    margin: 0;
+    @extend .list-inline;
+
+    li {
+      vertical-align: top;
+
+      a {
+        height: 40px;
+        display: block;
+        overflow: hidden;
+        text-decoration: none;
+
+        span {
+          height: 80px;
+          display: block;
+          @extend .colour-3;
+          padding: 10px 25px;
+          @extend .text-center;
+          @extend .typography-3;
+          @include font-size(1.8);
+
+          .fa {
+            display: none;
+            @include font-size(2.4);
+          }
+        }
+
+        &:hover {
+          overflow: visible;
+
+          span {
+            z-index: 9999;
+            padding: 20px 25px;
+            @include transform(translateY(-40px));
+
+            .fa {
+              display: block;
+            }
+          }
+        }
+      }
+
+      @media #{$mq-mobile-and-tablet} {
+        & {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+.menubar-autos {
+  border-bottom: 2px solid $colour-2;
+
+  ul > li > a {
+
+    &:hover > span {
+      background: url('../images/noise-d.png');
+    }
+  }
+}
+
+.menubar-forklift-truck {
+  border-bottom: 2px solid $colour-22;
+
+  ul > li > a {
+
+    &:hover > span {
+      background: url('../images/noise-f.png');
+    }
+  }
+}

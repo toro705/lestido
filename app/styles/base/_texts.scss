@@ -1,0 +1,55 @@
+// Titles
+.title-1 {
+    color: $colour-7;
+    font-family: $typography-1;
+    @include font-size(2.6);
+    font-weight: bold;
+}
+.title-2 {
+    color: $colour-7;
+    font-family:  $typography-1;
+    @include font-size(2.4);
+}
+.title-3 {
+    color: $colour-8;
+    font-family:  $typography-1;
+    @include font-size(2.4);
+}
+.title-4 {
+    color: $colour-3;
+    font-family: $typography-1;
+    @include font-size(2.0);
+}
+.title-5 {
+    color: $colour-8;
+    font-family:  $typography-1;
+    @include font-size(1.6);
+}
+// Paragraph
+.paragraph-1 {
+    color: $colour-8;
+    font-family:  $typography-6;
+    @include font-size(1.5);
+    line-height: 18px;
+}
+.paragraph-2 {
+    color: $colour-8;
+    font-family:  $typography-2;
+    @include font-size(1.5);
+}
+.paragraph-3 {
+    color: $colour-1;
+    font-family:  $typography-2;
+    @include font-size(1.5);
+    text-transform: uppercase;
+}
+.paragraph-4 {
+    color: $colour-3;
+    font-family:  $typography-4;
+    @include font-size(1.4);
+}
+.paragraph-5 {
+    color: $colour-3;
+    font-family:  $typography-1;
+    @include font-size(1.4);
+}

@@ -1,0 +1,36 @@
+// Typographies
+$typography-1: 'AvenirLTSd-Black', Helvetica, Arial, Sans-serif;
+$typography-2: 'AvenirLTStd-Book', Helvetica, Arial, Sans-serif;
+$typography-3: 'AvenirLTStd-Heavy', Helvetica, Arial, Sans-serif;
+$typography-4: 'AvenirLTStd-Medium', Helvetica, Arial, Sans-serif;
+$typography-5: 'AvenirLTStd-Light', Helvetica, Arial, Sans-serif;
+$typography-6: 'AvenirLTStd-Roman', Helvetica, Arial, Sans-serif;
+
+// Colours
+$colour-1: #022E75;
+$colour-2: #5EC2EA;
+$colour-3: #FFFFFF;
+$colour-4: #ECECEC;
+$colour-5: #CCCCCC;
+$colour-6: #3D3D3D;
+$colour-7: #333333;
+$colour-8: #2E2E2E;
+
+
+//Transparencia
+$transparency-1: rgba(0, 0, 0, .6);
+$transparency-2: rgba(255, 255, 255, .6);
+$transparency-3: rgba(0, 0, 0, .2);
+
+
+// Media queries
+$mq-mobile: "screen and (max-width: #{$screen-xs-max})";
+$mq-mobile-and-tablet: "screen and (max-width: #{$screen-sm-max})";
+$mq-tablet: "screen and (max-width: #{$screen-sm-max}) and (min-width: #{$screen-sm-min})";
+$mq-tablet-and-desktop: "screen and (min-width: #{$screen-sm-min})";
+$mq-desktop-md: "screen and (max-width: #{$screen-md-max}) and (min-width: #{$screen-md-min})";
+$mq-desktop: "screen and (min-width: #{$screen-md-min})";
+
+// Sizes
+$navbar-logo-height: 59px;
+$navabar-height: 83px;

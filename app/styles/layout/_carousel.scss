@@ -1,0 +1,49 @@
+.carousel {
+    .slick-carousel {
+        margin: 0;
+        div {
+            img {
+                width: 100%;
+            }
+        }
+        .slick-prev,
+        .slick-next {
+            top: 50%;
+            width: 50px;
+            border: none;
+            height: 100px;
+            outline: none;
+            z-index: 888;
+            margin-top: -50px;
+            background: transparent;
+            position: absolute;
+            text-indent: -99999;
+            @include font-size(0);
+            @extend .text-center;
+            @include transition();
+            @media #{$mq-mobile} {
+                & {
+                        z-index: -2;
+                }
+            }
+        }
+        .slick-prev {
+            left: 0;
+            &::after{
+                content:"\f104";
+                font-size: 90px;
+                @extend .fa;
+                color: $colour-3;
+            }
+        }
+        .slick-next {
+            right: 0;
+            &::after{
+                content:"\f105";
+                font-size: 90px;
+                @extend .fa;
+                color: $colour-3;
+            }
+        }
+    }
+}

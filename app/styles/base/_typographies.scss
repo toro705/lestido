@@ -1,0 +1,104 @@
+//@import "compass/css3/font-face";
+
+// AvenirLTStd-Black
+@include font-face(
+  "AvenirLTSd-Black",
+  font-files(
+    "AvenirLTStd-Black.eot",
+    "AvenirLTStd-Black.eot?#iefix",
+    "AvenirLTStd-Black.woff2",
+    "AvenirLTStd-Black.woff",
+    "AvenirLTStd-Black.ttf",
+    "AvenirLTStd-Black.svg#AvenirLTStd-Black"
+  )
+);
+
+// AvenirLTStd-Book
+@include font-face(
+  "AvenirLTStd-Book",
+  font-files(
+    "AvenirLTStd-Book.eot",
+    "AvenirLTStd-Book.eot?#iefix",
+    "AvenirLTStd-Book.woff2",
+    "AvenirLTStd-Book.woff",
+    "AvenirLTStd-Book.ttf",
+    "AvenirLTStd-Book.svg#AvenirLTStd-Book"
+  )
+);
+
+// AvenirLTStd-Heavy
+@include font-face(
+  "AvenirLTStd-Heavy",
+  font-files(
+    "AvenirLTStd-Heavy.eot",
+    "AvenirLTStd-Heavy.eot?#iefix",
+    "AvenirLTStd-Heavy.woff2",
+    "AvenirLTStd-Heavy.woff",
+    "AvenirLTStd-Heavy.ttf",
+    "AvenirLTStd-Heavy.svg#HelveticaNeueLTStd-LtCn"
+  )
+);
+
+// AvenirLTStd-Medium
+@include font-face(
+  "AvenirLTStd-Medium",
+  font-files(
+    "AvenirLTStd-Medium.eot",
+    "AvenirLTStd-Medium.eot?#iefix",
+    "AvenirLTStd-Medium.woff2",
+    "AvenirLTStd-Medium.woff",
+    "AvenirLTStd-Medium.ttf",
+    "AvenirLTStd-Medium.svg#AvenirLTStd-Medium"
+  )
+);
+
+// AvenirLTStd-Light
+@include font-face(
+  "AvenirLTStd-Light",
+  font-files(
+    "AvenirLTStd-Light.eot",
+    "AvenirLTStd-Light.eot?#iefix",
+    "AvenirLTStd-Light.woff2",
+    "AvenirLTStd-Light.woff",
+    "AvenirLTStd-Light.ttf",
+    "AvenirLTStd-Light.svg#AvenirLTStd-Light"
+  )
+);
+
+
+// AvenirLTStd-Roman
+@include font-face(
+  "AvenirLTStd-Roman",
+  font-files(
+    "AvenirLTStd-Roman.eot",
+    "AvenirLTStd-Roman.eot?#iefix",
+    "AvenirLTStd-Roman.woff2",
+    "AvenirLTStd-Roman.woff",
+    "AvenirLTStd-Roman.ttf",
+    "AvenirLTStd-Roman.svg#AvenirLTStd-Roman"
+  )
+);
+// Typographies
+
+.typography-1 {
+  font-family: $typography-1;
+}
+
+.typography-2 {
+  font-family: $typography-2;
+}
+
+.typography-3 {
+  font-family: $typography-3;
+}
+
+.typography-4 {
+  font-family: $typography-4;
+}
+
+.typography-5 {
+  font-family: $typography-5;
+}
+.typography-6 {
+  font-family: $typography-6;
+}

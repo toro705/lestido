@@ -1,0 +1,26 @@
+section#websites {
+	padding: 93px 0;
+	.websites-col {
+		img {
+			width: 100%;
+		}
+		>a {
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+	}
+	@media #{$mq-mobile} {
+		padding: 26px 0 50px 0;
+		.websites-col{
+			padding-left: 10px;
+			padding-right: 10px;
+			h3 {
+				@include font-size(1.4);
+			}
+			img {
+				margin-bottom: 8px;
+			}
+		}
+	}
+}

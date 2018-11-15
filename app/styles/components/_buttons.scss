@@ -1,0 +1,25 @@
+.btn,
+.btn:focus,
+.btn.focus,
+.btn:active:focus,
+.btn:active.focus,
+.btn.active:focus,
+.btn.active.focus {
+	height: 35px;
+	border: none;
+	outline: none;
+	line-height: 35px;
+	@extend .typography-1;
+	@include font-size(1.5);
+	box-shadow: none;
+	text-transform: uppercase;
+	border-radius:0;
+	padding: 0 18px;
+}
+
+.btn-primary,
+.btn-primary:focus,
+.btn-primary:hover {
+	color: $colour-3;
+	background: $colour-1;
+}

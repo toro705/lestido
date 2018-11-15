@@ -1,0 +1,58 @@
+footer {
+    display: block;
+//    margin-top: 100px;
+    padding-bottom: 80px;
+    @media #{$mq-mobile} {
+        padding-bottom: 40px;
+    }
+    .col-sm-4{
+        margin-top: 80px;
+        @media #{$mq-mobile} {
+            margin-top: 40px;
+        }
+        table {
+            width: 100%;
+            max-width: 300px;
+			&.map{
+				max-width: 100%;
+			}
+            i.fa {
+                @include font-size(1.7);
+				&.fa-envelope {
+	                @include font-size(1.5);
+				}
+            }
+            &#redes {
+                tr {
+                    td:first-child {
+                        vertical-align: text-top;
+                    }
+                }
+            }
+            tr {
+                td {
+                    padding: 7px 3px;
+                    p {
+                        margin: 0;
+                    }
+                    a {
+                        @extend .paragraph-4;
+                        &:hover,
+                        &:focus {
+                            @extend .paragraph-4;
+                        }
+                    }
+                    .footermap{
+                        width: 100%;
+                        height: 225px;
+                        border: 5px solid $colour-5;
+                        @media #{$mq-mobile} {
+                            height: 107px;
+                        }
+                    }
+                }
+            }
+        }        
+    }
+
+}

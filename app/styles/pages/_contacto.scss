@@ -1,0 +1,15 @@
+section.mantenimientos-preventivos {
+	form {
+		.form-group{
+				padding-left: 10px;
+				padding-right: 10px;
+			label {
+				 @extend .paragraph-1;
+				font-weight: 100;
+			}
+		}
+	}
+	.footPcontact{
+		@include font-size(1.0);
+	}
+}

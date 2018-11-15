@@ -1,0 +1,85 @@
+.topbar {
+  min-height: 36px;
+  background-color: black;
+
+  ul {
+    margin-top: 7px;
+    margin-bottom: 7px;
+  }
+
+  ul > li > a {
+    cursor: pointer;
+    text-decoration: none;
+    @include font-size(1.2);
+
+    &:hover {
+      @include transition();
+    }
+  }
+
+  ul > li > a > i {
+    font-size: 17px;
+  }
+
+  a.social-circle {
+    width: 24px;
+    height: 24px;
+    margin-top: 4.5px;
+    position: relative;
+    margin-bottom: 4.5px;
+    display: inline-block;
+    vertical-align: middle;
+    background: url('../images/elipse-1.png');
+    @include transition();
+
+    i {
+      color: $colour-4;
+      @include centerer;
+      margin-top: 1px;
+      @include font-size(1.6);
+    }
+
+    &:hover {
+      @include transition();
+      i {
+        color: $colour-8;
+      }
+    } 
+
+    &:first-of-type {
+      margin-right: 5px;
+    }
+  }
+}
+
+// Topbar autos
+.topbar-autos {
+  ul > li > a {
+    color: $colour-4;
+    @include transition();
+
+    &:hover {
+      color: $colour-3;
+    }
+  }
+
+  ul > li > a > i {
+    color: $colour-5;
+  }
+}
+
+// Topbar forklift trucks
+.topbar-forklift-truck{
+  ul > li > a {
+    color: $colour-4;
+    @include transition();
+
+    &:hover {
+      color: $colour-3;
+    }
+  }
+
+  ul > li > a > i {
+    color: $colour-2;
+  }
+}
